@@ -1,0 +1,68 @@
+
+.img{
+    background: url(hero-bg.png)no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+ .txt{
+     color: black;
+ }
+ /* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  /* Column container */
+    /* .row {  
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+  }
+   */
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  /* .side {
+    -ms-flex: 30%;
+    flex: 30%;
+   
+   
+  } */
+  
+  /* Main column */
+  /* .main {   
+    -ms-flex: 70%;
+    flex: 70%;
+   
+    
+  } 
+  
+  /* Fake image, just for this example */
+  /* .fakeimg {
+    
+    width: 100%;
+    
+  }  */
+  /* form */
+  span{
+    color: red;
+  }
+  /* input[type="button"] {
+    width: 390px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    line-height: 100%;
+  } */

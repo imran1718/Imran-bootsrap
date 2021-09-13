@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Admin Login</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css" <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="">
+
+
+
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://www.clipartmax.com/png/middle/11-112531_graduation-cap-diploma-svg-png-icon-free-download-graduation-cap-and-diploma.png"
+            width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          KLN</a>
+        <button class="log navbar-toggler btn btn-#a669ce" type="button" data-toggle="collapse" data-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ">
+              <a href="index.html" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="" class="nav-link text-white" id="navbarDropdown" role="button" data-target="#mymodel"
+                data-toggle="modal">Login</a>
+
+            </li>
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button"
+                data-toggle="dropdown">Registration</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" role="button" data-target="#mymodel2" data-toggle="modal" href="">Student
+                  Registration </a>
+                <a href="" class="dropdown-item " role="button" data-target="#mymodel1" data-toggle="modal">College
+                  Registration </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutus" class="nav-link  disabled">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contactus" class="nav-link  disabled">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button"
+                data-toggle="dropdown">
+                Help</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Facebook</a>
+                <a class="dropdown-item" href="">Instagram</a>
+                <a class="dropdown-item" href="">Twitter</a>
+                <a class="dropdown-item" href="">Youtube</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <header>
+    <div class=" text-center mt-5 p-5">
+      <h1>KLN College of Information Technology</h1>
+
+    </div>
+<div class="container">
+    <div  class="text-center">
+      <h2>Admin Login</h2>
+      
+      <div  class="text-center pt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Approve Institute</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="approved.html" class="btn btn-primary">Approve Institute</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Delete Institute</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="colleges.html" class="btn btn-primary">Delete Institute</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">View students</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="stulist.html" class="btn btn-primary">View students</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">View complaints</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="complaints.html" class="btn btn-primary">View complaints</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 py-5">
+          <div class="col-sm-4">
+
+          </div>
+         
+        <div class="col-sm-4">
+        <button type="button" class="btn btn-outline-success btn-block "> <a id="cent" href="index.html" class="text-decoration-none text-dark">Logout</a></button>
+        </div>
+      </div>
+    </div>
+</div>
+ <!-- admin form start -->
+ <div class="modal fade" id="mymodel" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-content card card-image fill"
+        style=" background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg'); width: 100%;">
+
+        <div class="modal-header">
+          <h4 class="text-green font-weight-bold">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="log mx-auto mt-5">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Admin</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">College</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline3">Students</label>
+          </div>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" name="conform" method="POST">
+            <div class="form-group center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+              </svg>
+              <label for="usrname"> Username</label>
+              <input type="text" class="form-control" name="uname" id="usern" placeholder="Enter email">
+              <span id="name1"> </span>
+            </div>
+            <div class="form-group">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+              </svg>
+              <label for="psw"> Password</label>
+              <input type="password" class="form-control" id="pword" name="pname" placeholder="Enter password">
+              <span id="password"> </span>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+            <input type="button" value="Login" onclick="validation()" class="btn btn-outline-success btn-block ">
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Cancel</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- admin form end -->
+
+
+
+<!-- college regsitration form start -->
+<div class="container">
+  <div class="modal fade" id="mymodel1" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>College Regsistration</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" name="conform" method="POST">
+            <div class="form-group center">
+              
+              <label for="usrname">College name</label>
+              <input type="text" class="form-control" name="cname" id="clgname" placeholder="Enter email">
+              <span id="clname""> </span>
+        </div>
+        <div class=" form-group center">
+                <label for="usrname"> Username</label>
+                <input type="text" class="form-control" name="uname" id="username" placeholder="Enter username">
+                <span id="uname"> </span>
+            </div>
+            <div class="form-group">
+              <label for="psw"> Password</label>
+              <input type="password" class="form-control" id="pword2" name="passname" placeholder="Enter password">
+              <span id="pass"> </span>
+            </div>
+            <div class="form-group center">
+              <label for="usrname">College Address</label>
+              <textarea class="form-control" id="Collegeadd" rows="3"
+                placeholder="Enter College Address"></textarea>
+              <span id="addr"> </span>
+            </div>
+            <div class="form-group center">
+              <label for="usrname">College Phone Number</label>
+              <input type="number" class="form-control" name="pname" id="phoneno" placeholder="Enter Phonenumber">
+              <span id="pnum"> </span>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+            <input type="button" value="Submit" onclick="clgregistration()" class="btn btn-outline-success btn-block ">
+            <input type="button" value="Reset" onclick="resets()" class="btn btn-outline-success btn-block ">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- college regsitration form end -->
+
+
+  <!-- student registration form start -->
+  <div class="container">
+    <div class="modal fade" id="mymodel2" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Student Regsistration</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body" style="padding:40px 50px;">
+            <form role="form" name="conform" method="POST">
+              <div class="form-group center">
+                <label for="firstname">First name</label>
+                <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter First name">
+                <span id="firstname"> </span>
+               </div>
+               <div class=" form-group center">
+                  <label for="lastame">Last name</label>
+                  <input type="text" class="form-control" name="lname" id="lname" placeholder="Enter Last name">
+                  <span id="lastname"> </span>
+              </div>
+              <div class="form-group center">
+                <label for="usrname"> Username</label>
+                <input type="text" class="form-control" name="usename" id="username1" placeholder="Enter username">
+                <span id="uname1"> </span>
+              </div>
+              <div class="form-group">
+                <label for="psw"> Password</label>
+                <input type="password" class="form-control" id="pword1" name="passname" placeholder="Enter password">
+                <span id="pass1"> </span>
+              </div>
+              <div class="form-group center">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" class="form-control" name="pname" id="phoneno1" placeholder="Enter Phonenumber">
+                <span id="pnum1"> </span>
+              </div>
+              <div class="form-group center">
+                <label for="e-mail">E-mail</label>
+                <input type="text" class="form-control" name="cname" id="email" placeholder="Enter email">
+                <span id="mail"> </span>
+              </div>
+              <div class="form-group center">
+                <label for="address">Address</label>
+                <textarea class="form-control" id="add" rows="3" placeholder="Enter Address"></textarea>
+                <span id="addr1"> </span>
+              </div>
+              <div class="form-group center">
+              <select class="form-control custom-select ">
+                <label for="college">College</label>
+                <option selected>College</option>
+                <option value="1">KLNCIT</option>
+                <option value="2">KLNCE</option>
+              </select>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="" checked>Remember me</label>
+          </div>
+          <input type="button" value="Submit" onclick="registration()"
+            class="form-control  btn btn-outline-success btn-block ">
+          <input type="button" value="Reset" onclick="resets()"
+            class="form-control  btn btn-outline-success btn-block ">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" >Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="login.js"></script>
+  <script src="collegereg.js"></script>
+  <script src="studentreg.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
